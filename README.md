@@ -5,7 +5,7 @@
 Welcome to **LogicFlow Weaver**, a revolutionary web-based platform where creativity meets logic in a vibrant, no-code playground. Imagine a digital canvas where you can weave intricate workflows as easily as painting a masterpiece. With a drag-and-drop interface, LogicFlow Weaver empowers everyone—**dreamers, innovators, and problem-solvers**—to craft complex logical sequences without writing a single line of code. From orchestrating image-based decisions to designing automated processes, this tool transforms ideas into reality with elegance and simplicity, blending the art of visual design with the precision of computational logic.
 
 ---
-![Workflow Example](Capture.png)
+![Workflow Example](Capture.PNG)
 
 > **📝 Note:** This image is **half completed**. More logic elements and connections will be added soon.
 
