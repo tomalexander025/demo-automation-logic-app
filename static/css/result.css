@@ -1,0 +1,103 @@
+.RESULT_AREA{
+  position: absolute;
+  right: 0.3vw;
+  top: 0.46vh;
+  width: 24.56%;
+  height: 99%;
+  background: rgb(152, 178, 255);
+  border-radius: 1vh;
+}
+
+.RESULT_BOX{
+  position: absolute;
+  right: 0.25vw;
+  top: 0.6vh;
+  width: 97.9%;
+  height: 17%;
+  background: rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  justify-content: center;
+  display: flex;
+  font-family: sans-serif;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.9vh;
+  padding-top: 0.5vh;
+}
+
+.RESULT_OK_NOK_STATUS{
+  position: absolute;
+  right: 0.25vw;
+  top: 3.6vh;
+  width: 98%;
+  height: 73%;
+  background: rgb(212, 223, 255);
+  border-radius: 0.5vh;
+}
+
+.STATUS{
+  position: absolute;
+  left: 0.3vw;
+  top: 0.6vh;
+  width: 50%;
+  height: 90%;
+  background: rgb(255, 255, 255);
+  border-radius: 0.3vh;
+}
+
+.INF_TIME_TAKEN{
+    position: absolute;
+    right: 0.3vw;
+    top: 0.6vh;
+    width: 46.3%;
+    height: 40%;
+    background: rgb(255, 255, 255);
+    border-radius: 0.3vh;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5vw;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: #0a0dbbac;
+}
+
+.RESULT_INF_BOX{
+  position: absolute;
+  right: 0.25vw;
+  top: 16.1vh;
+  width: 97.9%;
+  height: 49%;
+  background: rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  justify-content: center;
+  display: flex;
+  font-family: sans-serif;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.9vh;
+  padding-top: 0.5vh;
+}
+
+.RESULT_INF_IMAGE{
+  position: absolute;
+  right: 0.25vw;
+  top: 3.92vh;
+  width: 98%;
+  height: 89.9%;
+  background: rgb(212, 223, 255);
+  border-radius: 0.5vh;
+}
+
+.WORKFLOW_CHART_BOX{
+  position: absolute;
+  right: 0.25vw;
+  bottom: 0.46vh;
+  width: 97.9%;
+  height: 31.6%;
+  background: rgb(255, 255, 255);
+  border-radius: 0.7vh;
+}
+

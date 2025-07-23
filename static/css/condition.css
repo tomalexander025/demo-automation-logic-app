@@ -1,0 +1,227 @@
+.CONDITION_AREA {
+  position: absolute;
+  right: 24.9vw;
+  top: 5.5vh;
+  width: 4%;
+  height: 66.5vh;
+  background: rgb(152, 178, 255);
+  border-radius: 1vh;
+}
+
+.AND {
+  position: absolute;
+  left: 0.23vw;
+  top: 0.5vh;
+  width: 3.5vw;
+  height: 5.5vh;
+  background:rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.and-icon {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+}
+
+.OR {
+  position: absolute;
+  left: 0.25vw;
+  top: 6.5vh;
+  width: 87%;
+  height: 5.5vh;
+  background:rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.or-icon {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+}
+
+.NOT{
+  position: absolute;
+  left: 0.25vw;
+  top: 12.5vh;
+  width: 87%;
+  height: 5.5vh;
+  background:rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.not-icon {
+  width: 85%;
+  height: 85%;
+  object-fit: contain;
+}
+
+.INSIDE_ROI{
+  position: absolute;
+  left: 0.25vw;
+  top: 18.5vh;
+  width: 87%;
+  height: 5.5vh;
+  background:rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inside-roi-icon {
+  width: 55%;
+  height: 55%;
+  object-fit: contain;
+}
+
+.OUTSIDE_ROI{
+  position: absolute;
+  left: 0.25vw;
+  top: 24.5vh;
+  width: 87%;
+  height: 5.5vh;
+  background:rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outside-roi-icon {
+  width: 55%;
+  height: 55%;
+  object-fit: contain;
+}
+
+.TOUCHING_ROI{
+  position: absolute;
+  left: 0.25vw;
+  top: 30.5vh;
+  width: 87%;
+  height: 5.5vh;
+  background:rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.touching-roi-icon {
+  width: 65%;
+  height: 65%;
+  object-fit: contain;
+}
+
+.IF{
+  position: absolute;
+  left: 0.25vw;
+  top: 36.4vh;
+  width: 87%;
+  height: 5.5vh;
+  background:rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.if-icon {
+  width: 55%;
+  height: 55%;
+  object-fit: contain;
+}
+
+.ELSE{
+  position: absolute;
+  left: 0.25vw;
+  top: 42.4vh;
+  width: 87%;
+  height: 5.5vh;
+  background:rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.else-icon {
+  width: 65%;
+  height: 65%;
+  object-fit: contain;
+}
+
+.OK{
+  position: absolute;
+  left: 0.25vw;
+  top: 48.4vh;
+  width: 87%;
+  height: 5.5vh;
+  background: rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ok-icon {
+  width: 65%;
+  height: 65%;
+  object-fit: contain;
+}
+
+.NOK{
+  position: absolute;
+  left: 0.25vw;
+  top: 54.3vh;
+  width: 87%;
+  height: 5.5vh;
+  background:rgb(255, 255, 255);
+  border-radius: 0.7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nok-icon {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+}
+
+.nested {
+    position: absolute;
+    left: 0.25vw;
+    top: 60.3vh;
+    width: 87%;
+    height: 5.5vh;
+    background: linear-gradient(135deg, rgb(247, 249, 255), rgb(255, 255, 255));
+    border-radius: 0.7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 9px 12px rgba(0, 0, 0, 0.2);
+    user-select: none;
+}
+
+.nested:hover {
+    background: linear-gradient(135deg, rgb(255, 255, 255), rgb(239, 244, 255));
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.nested:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.NESTED-icon {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+}

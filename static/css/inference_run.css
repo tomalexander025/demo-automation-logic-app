@@ -1,0 +1,125 @@
+.RUN_INFERENCE {
+  position: absolute;
+  left: 15.4vw;
+  bottom: 0.46vh;
+  width: 25%;
+  height: 6%;
+  background: rgb(89, 194, 88);
+  border-radius: 0.7vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: sans-serif;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2vh;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.RUN_INFERENCE:hover {
+  box-shadow: 0 0 2px rgba(122, 155, 125, 0.4), 0 0 20px rgb(89, 194, 88);
+  transform: scale(1);
+}
+
+.RUN_INFERENCE:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 2px rgba(47, 255, 0, 0.3);
+}
+
+.CLEAR_LOGIC {
+  position: absolute;
+  left: 40.4vw;
+  bottom: 0.46vh;
+  width: 25%;
+  height: 6%;
+  background: rgb(255, 83, 83);
+  border-radius: 0.7vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: sans-serif;
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2vh;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.CLEAR_LOGIC:hover {
+  box-shadow: 0 0 1px rgba(167, 159, 159, 0.4), 0 0 20px rgb(255, 42, 42);
+  transform: scale(1);
+}
+
+.CLEAR_LOGIC:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 2px rgba(255, 0, 0, 0.3);
+}
+
+.SAVE_LOGIC {
+  position: absolute;
+  left: 65.4vw;
+  bottom: 0.46vh;
+  width: 4.5%;
+  height: 6%;
+  background: rgb(183, 200, 255);
+  border-radius: 0.7vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.SAVE_LOGIC:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.4), 0 0 20px rgb(33, 89, 255);
+  transform: scale(1);
+}
+
+.SAVE_LOGIC:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.save-icon {
+  width: 65%;
+  height: 63%;
+  object-fit: contain;
+}
+
+.BROWSE_AI {
+  position: absolute;
+  left: 70.15vw;
+  bottom: 0.46vh;
+  width: 4%;
+  height: 6%;
+  background: rgb(183, 200, 255);
+  border-radius: 0.7vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.BROWSE_AI:hover {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.4), 0 0 20px rgb(33, 89, 255);
+  transform: scale(1);
+}
+
+.BROWSE_AI:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.ai-icon {
+  width: 55%;
+  height: 65%;
+  object-fit: contain;
+}

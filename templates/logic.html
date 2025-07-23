@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/logic.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/classes_area.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/logic_workspace.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/inference_run.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/condition.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/roi.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <!-- MAIN_BACKGROUND_BODY -->
+    <div class="MAIN_BACKGROUND_BODY">
+
+        <!-- CONTENT_AREA -->
+        <div class="CONTENT_AREA">
+            
+            {% include 'classes_area.html' %}
+
+            {% include 'inference_run.html' %}
+
+            {% include 'logic_workspace.html' %}
+
+            {% include 'condition.html' %}
+
+            {% include 'result.html' %}
+
+            {% include 'roi.html' %}
+
+        </div> <!-- END CONTENT_AREA -->
+
+    </div> <!-- END MAIN_BACKGROUND_BODY -->
+    
+</body>
+    <script src="{{ url_for('static', filename='js/drag_n_drop.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/classes_drag_n_drog.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/nested_sequence.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/sequence_number.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/browse_image.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/roi_selection.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='js/roi_popup_selection.js') }}"></script> -->
+</html>
+
+
